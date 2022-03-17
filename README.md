@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+![Virtual Networks Diagram](Images/Virtual Networks Diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -45,7 +45,7 @@ The machines on the internal network are not exposed to the public Internet.
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - Workstation's public IP address
 
-Machines within the network can only be accessed by the Jump Box gateway and the Workstation public IP address.
+Machines within the network can only be accessed by the Jump Box gateway and the Workstation's public IP address.
 - Workstation's public IP address
 - Jump Box gateway IP: 10.0.0.4
 
