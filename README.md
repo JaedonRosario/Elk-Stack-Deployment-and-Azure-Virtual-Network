@@ -51,12 +51,12 @@ Machines within the network can only be accessed by the Jump Box gateway and the
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses            |
-|----------|---------------------|---------------------------------|
-| Jump Box | No                  | Workstation's public IP address |
-| Elk      | No                  | 10.0.0.4                        |
-| Web 1    | No                  | 10.0.0.4                        |
-| Web 2    | No                  | 10.0.0.4                        |
+| Name     | Publicly Accessible | Allowed IP Addresses                     |
+|----------|---------------------|------------------------------------------|
+| Jump Box | No                  | Workstation's public IP address          |
+| Elk      | No                  | Workstation's public IP address, 10.0.0.4|
+| Web 1    | No                  | 10.0.0.4                                 |
+| Web 2    | No                  | 10.0.0.4                                 |
 
 ### Elk Configuration
 
